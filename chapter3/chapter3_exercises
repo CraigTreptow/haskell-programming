@@ -1,0 +1,31 @@
+p. 110
+  1) yes
+  2) no
+  3) no
+  4) no
+
+p. 115
+  1) no
+  2) yes   XXXX
+  3) yes
+
+p. 122
+  1a) yes
+  1b) no
+  1c) yes
+  1d) no
+  1e) no
+  1f) no  XXXX
+  1g) no
+  1h) yes
+
+  2a) result d
+  2b) result c
+  2c) result e
+  2d) result a
+  2e) result b
+
+p. 125 Functions
+  1a) "Curry is awesome ++ "!"
+  1b) "Curry is awesome!" !! 4
+  1c) drop 9 "Curry is awesome!"
