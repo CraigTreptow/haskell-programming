@@ -1,0 +1,51 @@
+p.136
+1) Mood
+2) Blah or Woot
+3) The return type is Mood, not one of the values.
+4) ???
+changeMood Mood = Woot
+changeMood    _ = Blah
+
+That is pattern matching, so it needs to match on the value not the type.
+Like this:
+changeMood Blah = Woot
+changeMood    _ = Blah
+
+p.156
+1) capitalize true
+2) = to ==
+3) Correct
+4) Correct  XXXX works with strings
+5) Won't compile, not the same types on both sides
+
+p.169
+1) length :: List -> Word XXXX actually length :: Foldable t => t a -> Int
+2a) 5
+2b) 3
+2c) 2
+2d) 5
+3) 6 / length [1,2,3] will fail because / is only for the Fractional type and the result
+of length is Integral.
+4) use div   XXXX   need to use backticks: `div`
+5) Bool, expect 2 + 3 == 5 to be True
+6) Bool and False
+7a) True
+7b) Won't work, all must be the same type
+7c) 5
+7d) False
+7e) Won't work, 9 is Integral, not Bool
+8) See palindrome.hs
+9) See absolute.hs
+10) See first_and_second.hs
+
+p.172
+1) lowercase the 'F' and backticks around x
+2) rename function name like this: xx x = x
+3) f (a b) = A -> ff (a,b) = a
+
+p.173
+1) c
+2) b
+3) a
+4) d
+
