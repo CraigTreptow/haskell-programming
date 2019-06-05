@@ -1,0 +1,78 @@
+p.193
+a) not is c
+b) length is d
+c) concat is b
+d) head is a
+e) (<) is e
+
+p.206
+1) a f x :: Char -> Char -> Char
+2) d Char
+3) b Integer   XXXX Num b => b
+4) c Double
+5) a [Char]
+6) b Eq b => b XXXX Eq b => b -> [Char]
+7) a Integer   XXXX a
+8) f Integer   XXXX a
+9) c Integer
+
+p.215
+2) See parametric.hs
+3) See parametric.hs
+
+p.223
+1) Doesn't change  XXXX Got more specific e.g. [Char]
+2) Changes to type Fractional
+3) Changes to type [Char]
+4) a type will be Int
+5) a type will be Char
+
+p.227
+1) c
+2) a
+3) b
+4) c
+
+p.229
+1a) 54 Int                         XXXX Num
+1b) (0, "doge"), (Int, [Char])     XXXX Int should be Num
+1c) 90, "doge"), (Integer, [Char])
+1d) Bool
+1e) Int
+1f) Bool
+2) Num w :: Num a => a
+3) Num z :: Num a => a  XXXX z :: Num a => a -> a
+4) Rational                        XXXX Fractional
+5) [Char]
+
+p.229 Does it compile
+1) XXXX wahoo = bigNum $ 10 is the problem, just get rid of '$ 10', ???
+2) XXXX all correct
+3) change to b = a 5  XXXX nope, I have no idea
+4) c is undefined
+
+p.231
+1) see typecategories.hs
+2) ..
+3) ..
+4) ..
+
+p.232
+1) see typesignatures.hs
+2) ..
+3) ..
+
+p.234
+1) see giventypewritefunction.hs
+2) see giventypewritefunction.hs
+3) see giventypewritefunction.hs
+4) see giventypewritefunction.hs
+5) see giventypewritefunction.hs
+6) see giventypewritefunction.hs
+7) see giventypewritefunction.hs
+8) see giventypewritefunction.hs
+
+p.236
+1) see fixit.hs
+2) ..
+3) ..
