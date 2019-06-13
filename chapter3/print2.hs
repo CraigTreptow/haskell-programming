@@ -3,6 +3,7 @@
 module Print2 where
 
 main :: IO ()
+-- do is used to sequence actions
 main = do
   putStrLn "Count to four for me:"
   putStr   "one, two"
