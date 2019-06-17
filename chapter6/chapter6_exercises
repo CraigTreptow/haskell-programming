@@ -1,4 +1,46 @@
 p.274 - Eq instances
 1-7) See eqinstances.hs
 
+p.278 - Tuple Experiment
+1) What do quotRem and divMod do?  only look at the types
+quotRem - gives the remainder after calculating the quotient
+divMod - isn't this the same?
 
+4 `quotRem` 2 -> (2,0)
+5 `quotRem` 2 -> (2,1)
+(-5) `quotRem` 2 -> (-2,-1)
+
+4 `divMod` 2 -> (2,0)
+5 `divMod` 2 -> (2,1)
+(-5) `divMod` 2 -> (-3,1)
+
+I guess not.
+
+p.296 - Will they work?
+1) yes
+2) yes
+3) no
+4) yes
+
+p.316 - Chapter exercises
+1) c - makes equality tests possible
+2) c - is a super class of Eq
+3) a - Ord a => a -> a -> Bool
+4) c - the type of x is a Tuple
+5) a - Int and Integer numbers
+
+p.319
+See doesittypecheck.hs
+1) no, needs a deriving Show
+2) yes X no instance of Eq
+3) a) Blah or Woot, b) type error because 9 is Integer(Num?) not a Mood, c) error, no Ord is derived or defined
+4) no, no instance defined X it DID type check!
+
+p.320
+1) No
+2) Yes
+3) Yes
+4) No
+
+p.324 Type-Kwon-Do
+See typekwondo.hs

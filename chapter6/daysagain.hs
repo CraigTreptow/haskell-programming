@@ -1,8 +1,9 @@
-module Days where
+module DaysAgain where
 
 data DayOfWeek =
   Mon | Tue | Weds | Thu | Fri | Sat | Sun
-  deriving Show
+  -- deriving (Ord, Show)
+  deriving (Show)
 
 data Date =
   Date DayOfWeek Int
@@ -28,4 +29,11 @@ instance Eq Date where
 -- Now we can:
 -- Date Thu 10 == Date Thu 10, which is True
 -- Adding the deriving Show to each data type allows `Date Thu 10` to work
+
+-- Fri is always the best day
+instance Ord DayOfWeek where
+  compare Fri Fri = EQ
+  compare Fri _   = GT
+  compare _ Fri   = LT
+  compare _ _     = EQ
 
