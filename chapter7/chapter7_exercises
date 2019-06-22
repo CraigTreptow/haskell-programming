@@ -1,0 +1,24 @@
+p.344 Grab Bag
+See grabbag.hs
+
+1) a & d  X all apear to be equivalent
+2) a Integer -> Integer -> Integer X NOPE
+3)
+
+p.361 - Variety Pack
+1a) k :: (a, b) -> a
+1b) k2 :: (String a, Integer b) -> String, not the same as K1 or k3 XX nope, just k2 :: [Char], same as K3
+1c) k3
+
+2) f' (a, b, c) (d, e, f) = ((a, d), (c, f))
+
+p.402
+1) d
+2) b
+3) d ?
+4) c ?
+5) a
+
+
+p.404
+see letswritecode.hs
