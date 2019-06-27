@@ -1,0 +1,40 @@
+p.499
+Will it blow up?
+1) bottom
+2) value
+3) bottom
+4) value
+5) bottom
+6) value
+7) bottom
+8) value
+9) value
+10) bottom
+
+Is it in normal form?
+a) Normal form
+b) weak head normal form only
+c) neither
+
+1) a
+2) b
+3) b
+4) a
+5) b
+6) a
+7) a
+
+p.510
+More Bottoms
+1) bottom
+2) value
+3) bottom
+4) returns only the lowercase vowels of the passed in string
+Nope: type is itIsMystery :: Char -> Bool
+      Returns True or False if the passed character is a vowel
+5a) [1,4,9,16,25,36,49,64,81,100]
+5b) [minimum[1..10], minimum[10..20], minimum[20..30]]
+Nope: [1,10,20]
+5c) [15,15,15]
+6)
+
