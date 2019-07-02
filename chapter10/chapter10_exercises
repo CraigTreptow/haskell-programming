@@ -1,0 +1,14 @@
+p.559
+1) c
+2) 
+3) c
+4) a
+5a) foldr (++) "" ["woot", "WOOT", "woot"]
+5b) foldr max [] ["fear is the little death"]
+5c) foldr and [True] [False, True] Nope: foldr (xx) True [False, True]
+5d) always True as-is
+5e) foldl (flip (++) . show) "" [1..5] Nope: foldl (flip ((++) . show)) "" [1..5]
+5f)
+5g)
+5h)
+5i)
